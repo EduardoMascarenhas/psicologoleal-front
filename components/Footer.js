@@ -158,7 +158,7 @@ const Footer = () => {
         </div>
         <div className="site-footer__bottom">
           <div className="container text-center">
-            <p>© copyright 2020 by Layerdrops.com</p>
+            <p>© copyright 2023 por navegantesdigitais.com.br</p>
           </div>
         </div>
       </footer>
