@@ -15,10 +15,10 @@ const BlogSingle = () => {
         <div className="blog-details__content">
           <div className="blog-one__meta">
             <a href="#">
-              <i className="far fa-clock"></i> 20 Feb
+              <i className="far fa-clock"></i> 01 Mai
             </a>
             <a href="#">
-              <i className="far fa-comments"></i> 2 comments
+              <i className="far fa-comments"></i> 2 comentários
             </a>
           </div>
           <h3>Launch New Mobile App Marketing Pitfalls To Avoid</h3>
@@ -53,8 +53,8 @@ const BlogSingle = () => {
         </div>
         <div className="blog-details__meta">
           <div className="blog-details__tags">
-            <span>Tags: </span> <a href="#">Business,</a>{" "}
-            <a href="#">Agency,</a> <a href="#">Technology</a>
+            <span>Tags: </span> <a href="#">SaúdeMental,</a>{" "}
+            <a href="#">Terapia,</a> <a href="#">Autoconhecimento</a>
           </div>
           <div className="blog-details__share">
             <a href="#">
@@ -77,7 +77,7 @@ const BlogSingle = () => {
           <img src={AuthorImage} alt="" />
         </div>
         <div className="blog-author__content">
-          <h3>Christine Eve </h3>
+          <h3>Pessoa 1 </h3>
           <p>
             Lorem Ipsum is simply dummy text of the rinting and typesetting been
             the industry dummy text ever sincer condimentum purus.
@@ -91,9 +91,9 @@ const BlogSingle = () => {
             <img src={CommentImage1} alt="" />
           </div>
           <div className="comment-one__content">
-            <h3>Eugenia Floyd</h3>
+            <h3>Pessoa 2</h3>
             <p className="comment-one__date">
-              20 Mar, 2020 <span>.</span> 4:00 pm
+              20 Mai, 2020 <span>.</span> 4:00 pm
             </p>
             <p>
               Lorem Ipsum is simply dummy free text of the available printing
@@ -102,7 +102,7 @@ const BlogSingle = () => {
             </p>
           </div>
           <a href="#" className="thm-btn comment-one__btn">
-            <span>Reply</span>
+            <span>Responder</span>
           </a>
         </div>
         <div className="comment-one__single">
@@ -110,9 +110,9 @@ const BlogSingle = () => {
             <img src={CommentImage2} alt="" />
           </div>
           <div className="comment-one__content">
-            <h3>Nellie Hanson</h3>
+            <h3>Pessoa 3</h3>
             <p className="comment-one__date">
-              20 Mar, 2020 <span>.</span> 4:00 pm
+              20 Mai, 2020 <span>.</span> 4:00 pm
             </p>
             <p>
               Lorem Ipsum is simply dummy free text of the available printing
@@ -121,32 +121,29 @@ const BlogSingle = () => {
             </p>
           </div>
           <a href="#" className="thm-btn comment-one__btn">
-            <span>Reply</span>
+            <span>Responder</span>
           </a>
         </div>
       </div>
       <div className="comment-form">
-        <h3 className="comment-one__block-title">Leave a Comment</h3>
+        <h3 className="comment-one__block-title">Deixe um comentário</h3>
         <form className="contact-form-validated contact-one__form">
           <div className="row">
             <div className="col-lg-6">
-              <input type="text" placeholder="Name" name="name" />
+              <input type="text" placeholder="Nome" name="name" />
             </div>
             <div className="col-lg-6">
-              <input type="text" placeholder="Email Address" name="email" />
+              <input type="text" placeholder="Email" name="email" />
             </div>
-            <div className="col-lg-6">
-              <input type="text" placeholder="Website" name="website" />
-            </div>
-            <div className="col-lg-6">
-              <input type="text" placeholder="Subject" name="subject" />
+            <div className="col-lg-12">
+              <input type="text" placeholder="Assunto" name="subject" />
             </div>
             <div className="col-lg-12">
               <textarea placeholder="Write Message" name="message"></textarea>
             </div>
             <div className="col-lg-12 text-left">
               <button type="submit" className="thm-btn contact-one__btn">
-                <span>Submit Comment</span>
+                <span>Enviar Comentário</span>
               </button>
             </div>
           </div>

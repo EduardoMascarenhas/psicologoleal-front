@@ -9,14 +9,14 @@ const BlogSidebar = () => {
     <div className="sidebar">
       <div className="sidebar__single sidebar__search">
         <form action="#" className="sidebar__search-form">
-          <input type="text" name="search" placeholder="Search here..." />
+          <input type="text" name="search" placeholder="Buscar..." />
           <button type="submit">
             <i className="fa fa-search"></i>
           </button>
         </form>
       </div>
       <div className="sidebar__single sidebar__post">
-        <h3 className="sidebar__title">Latest Posts</h3>
+        <h3 className="sidebar__title">Últimos Posts</h3>
         <div className="sidebar__post-wrap">
           <div className="sidebar__post__single">
             <div className="sidebar__post-image">
@@ -26,7 +26,7 @@ const BlogSidebar = () => {
             </div>
             <div className="sidebar__post-content">
               <h4 className="sidebar__post-title">
-                <a href="#">Pre launch Mobile App Marketing Pitfalls</a>
+                <a href="#">Post 1</a>
               </h4>
             </div>
           </div>
@@ -38,7 +38,7 @@ const BlogSidebar = () => {
             </div>
             <div className="sidebar__post-content">
               <h4 className="sidebar__post-title">
-                <a href="#">Pre launch Mobile App Marketing Pitfalls</a>
+                <a href="#">Post 2</a>
               </h4>
             </div>
           </div>
@@ -50,32 +50,26 @@ const BlogSidebar = () => {
             </div>
             <div className="sidebar__post-content">
               <h4 className="sidebar__post-title">
-                <a href="#">Pre launch Mobile App Marketing Pitfalls</a>
+                <a href="#">Post 3</a>
               </h4>
             </div>
           </div>
         </div>
       </div>
       <div className="sidebar__single sidebar__category">
-        <h3 className="sidebar__title">Categories</h3>
+        <h3 className="sidebar__title">Categorias</h3>
         <ul className="sidebar__category-list">
           <li className="sidebar__category-list-item">
-            <a href="#">Business</a>
+            <a href="#">SaúdeMental</a>
           </li>
           <li className="sidebar__category-list-item">
-            <a href="#">Introductions</a>
+            <a href="#">Autoconhecimento</a>
           </li>
           <li className="sidebar__category-list-item">
-            <a href="#">One Page Template</a>
+            <a href="#">Terapia</a>
           </li>
           <li className="sidebar__category-list-item">
-            <a href="#">Parallax Effects</a>
-          </li>
-          <li className="sidebar__category-list-item">
-            <a href="#">New Technologies</a>
-          </li>
-          <li className="sidebar__category-list-item">
-            <a href="#">Video Backgrounds</a>
+            <a href="#">Psicologia</a>
           </li>
         </ul>
       </div>
@@ -83,25 +77,16 @@ const BlogSidebar = () => {
         <h3 className="sidebar__title">Tags</h3>
         <ul className="sidebar__tags-list">
           <li className="sidebar__tags-list-item">
-            <a href="#">Business,</a>
+            <a href="#">SaúdeMental,</a>
           </li>
           <li className="sidebar__tags-list-item">
-            <a href="#">Agency,</a>
+            <a href="#">Autoconhecimento,</a>
           </li>
           <li className="sidebar__tags-list-item">
-            <a href="#">Technology,</a>
+            <a href="#">Terapia,</a>
           </li>
           <li className="sidebar__tags-list-item">
-            <a href="#">Parallax,</a>
-          </li>
-          <li className="sidebar__tags-list-item">
-            <a href="#">Innovative,</a>
-          </li>
-          <li className="sidebar__tags-list-item">
-            <a href="#">Professional,</a>
-          </li>
-          <li className="sidebar__tags-list-item">
-            <a href="#">Experience</a>
+            <a href="#">Psicologia,</a>
           </li>
         </ul>
       </div>
